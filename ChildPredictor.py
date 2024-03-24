@@ -1,7 +1,7 @@
 import joblib
 import math
 
-filename = "./childPredictor.pkl"
+filename = "models/childPredictor.pkl"
 
 loaded_model = joblib.load(filename)
 

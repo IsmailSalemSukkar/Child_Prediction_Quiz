@@ -232,7 +232,7 @@ def clean_data(df):
 
 
 # Loaded variable 'df' from URI: /home/izzy/Documents/CodingProjects/NORCWebApp/GSS.csv
-df = pd.read_csv(r"/home/izzy/Documents/CodingProjects/NORCWebApp/GSS2.csv")
+df = pd.read_csv(r"data/GSS2.csv")
 
 df_clean = clean_data(df.copy())
 
